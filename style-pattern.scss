@@ -35,9 +35,13 @@ h2 {
     font-size: 1.7em;
 }
 
+.intro {
+    padding: 1em;
+}
+
 section {
     background-color: $accent2;
-    padding: .3em 1em;
+    padding: .3em 2em;
     margin: 1em;
     color: $text-dark;
 }
@@ -56,6 +60,7 @@ h3 {
 .colors {
     display: flex;
     flex-flow: row wrap;
+    padding-bottom: 2em;
     > h3 {
       width: 100%;
       flex: 1 0 100%;
@@ -103,4 +108,8 @@ a {
     &:active {
         color: #E5FCF5;
     }
+}
+
+#zen {
+    color: $accent1;
 }
