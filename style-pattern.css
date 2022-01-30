@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Meie+Script&display=swap");
+.archive .select .resources {
+  background-color: #99002C;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -33,7 +37,7 @@ h2 {
 }
 
 .poker-chip {
-  margin-left: 0.6em;
+  margin-left: 0.5em;
   width: 1.2em;
 }
 
@@ -114,6 +118,34 @@ a:active {
 
 #zen {
   color: #99002C;
+}
+
+.elements h1, .elements h2 {
+  color: #FDFFFC;
+}
+
+#light-heading {
+  color: #FDFFFC;
+}
+
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.uppercase {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #273043;
+}
+
+.uppercase-light {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FDFFFC;
 }
 
 /*# sourceMappingURL=style-pattern.css.map */

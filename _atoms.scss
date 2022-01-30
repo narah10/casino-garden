@@ -24,47 +24,6 @@
     padding-top: 1.5em;
   }  
   
-h2,
-h3,
-h4 {
-  font-family: $fonts-headline;
-  margin: 0;
-}
-h1 {
-  background: $accent1;
-  color: $text-light;
-  display: inline-block;
-  font-weight: normal;
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
-}
-h2 {
-  color: $text-light;
-  font-weight: 900; 
-  font-size: 6em;
-  letter-spacing: 1px;
-  line-height: 1em;
-}
-h3 {
-  color: $text-dark;    
-  font-size: 2.25em;
-  font-weight: 200; 
-  letter-spacing: 1px;
-  line-height: 1em;
-  padding: 0.5em 0 0.25em 0;
-}
-
-p {
-  @include set-font(1em, 1.5em);
-  padding: 0.5em 0;
-  margin: 0;
-}
-
-a {
-  border-bottom: 1px solid $accent2;
-  color: $text-light;
-  text-decoration: none;
-}
 
 .archive
 .select
