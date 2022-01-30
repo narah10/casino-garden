@@ -1,5 +1,6 @@
 @use 'variables' as *; //this puts all the variables in the global namespace.
 @use 'atoms';
+@use 'molecules';
 @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Meie+Script&display=swap');
 
 * {
