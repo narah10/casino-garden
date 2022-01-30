@@ -118,3 +118,16 @@ a {
 #zen {
     color: $accent1;
 }
+
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+.uppercase {
+  @include atoms.uppercase;
+}
+.uppercase-light {
+  @include atoms.uppercase($text-light);
+}
+ 
