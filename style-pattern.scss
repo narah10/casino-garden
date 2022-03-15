@@ -1,5 +1,6 @@
 @use 'variables' as *; //this puts all the variables in the global namespace.
 @use 'atoms';
+@use 'molecules';
 @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Meie+Script&display=swap');
 
 * {
@@ -62,6 +63,10 @@ h3 {
     word-wrap: break-word;
 }
 
+.cursive-num {
+    font-size: 1.5em;
+}
+
 .colors {
     display: flex;
     flex-flow: row wrap;
@@ -118,3 +123,28 @@ a {
 #zen {
     color: $accent1;
 }
+
+.elements {
+    h1, h2 {
+        color: $text-light;
+    }
+}
+
+#light-heading {
+    color: $text-light;
+}
+
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.uppercase {
+  @include atoms.uppercase;
+}
+
+.uppercase-light {
+  @include atoms.uppercase($text-light);
+}
+ 
